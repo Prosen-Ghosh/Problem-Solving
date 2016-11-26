@@ -21,9 +21,7 @@ int main(){
             if(pages[i].rel > mxRel)mxRel = pages[i].rel;
         }
         cout << "Case #"<< t << ":" << endl;
-        for(int i = 0; i < 10; i++){
-            if(pages[i].rel == mxRel)cout << pages[i].url << endl;
-        }
+        for(int i = 0; i < 10; i++)if(pages[i].rel == mxRel)cout << pages[i].url << endl;
     }
     return 0;
 }
