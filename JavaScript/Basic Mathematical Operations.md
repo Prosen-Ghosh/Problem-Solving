@@ -35,7 +35,7 @@ function basicOp(operation, value1, value2)
   if(operation == '/')return value1 / value2;
 }
 ```
-Another way of solving this problem is: `eval()` function
+Another way of solving this problem is: `eval(string)` function
 
 ```javascript
 
@@ -45,6 +45,6 @@ function basicOp(operation, value1, value2)
 }
 ```
 
-The `eval()` function evaluates or executes an argument.
+The `eval()` function evaluates or executes an argument.This function take string a it parameter.
 
 If the argument is an **expression**, `eval()` evaluates the expression. If the argument is one or more JavaScript **statements**, `eval()` executes the statements.
