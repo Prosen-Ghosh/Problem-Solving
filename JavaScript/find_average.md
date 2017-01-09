@@ -46,10 +46,11 @@ Parameter	|	Description
 function(total,currentValue, index,arr)	|	Required. A function to be run for each element in the array.
 Function arguments:|
 Argument	|	Description
-total		|	Required. The initialValue, or the previously returned value of the function
+----------------|------------------------
+accumulator		|	Required. The initialValue, or the previously returned value of the function
 currentValue	|	Required. The value of the current element
 currentIndex	|	Optional. The array index of the current element
-arr	|	Optional. The array object the current element belongs to
+array	|	Optional. The array object the current element belongs to
 initialValue	|	Optional. A value to be passed to the function as the initial value
 
 
