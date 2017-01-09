@@ -1,4 +1,4 @@
-# Exclamation marks series #1: Remove a exclamation mark from the end of string Code Wars Problem Solution
+# Exclamation marks series #1: Remove a exclamation mark from the end of string Code Wars Problem Solution.
 
 ```
 /*
@@ -48,3 +48,17 @@ Use the start and end parameters to specify the part of the string you want to e
 The first character has the position 0, the second has position 1, and so on.
 
 **Tip:** Use a negative number to select from the end of the string.
+
+
+Another Way of Solving this Problem:
+
+```javascript
+
+function remove(s){
+  return s.replace(/!$/,'');
+}
+
+```
+For the `$` quantifier it will search `Exclamation mark` at the end of the string.
+
+**Tip:** Use the `^n` quantifier to match any string with n at the **BEGINNING** of it.
