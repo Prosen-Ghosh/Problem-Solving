@@ -44,7 +44,7 @@ function find_average(array) {
 Parameter	|	Description
 ----------------|---------------------
 function(total,currentValue, index,arr)	|	Required. A function to be run for each element in the array.
-Function arguments:
+Function arguments:|
 Argument	|	Description
 total		|	Required. The initialValue, or the previously returned value of the function
 currentValue	|	Required. The value of the current element
