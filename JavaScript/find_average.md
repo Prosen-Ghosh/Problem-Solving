@@ -31,19 +31,19 @@ function find_average(array) {
 
 **Definition and Usage**
 
-- The reduce() method reduces the array to a single value.
+- The `reduce()` method reduces the array to a single value.
 
-- The reduce() method executes a provided function for each value of the array (from left-to-right).
+- The `reduce()` method executes a provided function for each value of the array (from left-to-right).
 
 - The return value of the function is stored in an accumulator (result/total).
 
-- **Note:** reduce() does not execute the function for array elements without values.
+- **Note:** `reduce()` does not execute the function for array elements without values.
 
 **Parameter Values**
 
 Parameter	|	Description
 ----------------|---------------------
-function(total,currentValue, index,arr)	|	Required. A function to be run for each element in the array.
+function(accumulator,currentValue, currentIndex,arr)	|	Required. A function to be run for each element in the array.
 
 Function arguments:
 
