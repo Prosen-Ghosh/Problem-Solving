@@ -21,8 +21,7 @@ For a given number num, write a function to test if it's a numerical palindrome 
 
 ```javascript
 function palindrome(num) { 
-  return !isNaN(num) && 
-  (typeof num == "number" && num > 0) ? num == (num+"").split("").reverse().join("") :
+  return (typeof num == "number" && num > 0) ? num == (num+"").split("").reverse().join("") :
   "Not valid";
 } 
 ```
