@@ -1,0 +1,1 @@
+const goals = (...args) => args.reduce((v,c) => v+c, 0);
