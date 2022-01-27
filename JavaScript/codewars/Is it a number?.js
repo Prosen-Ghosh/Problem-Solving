@@ -1,0 +1,1 @@
+const isDigit = s => !isNaN(s.trim());
