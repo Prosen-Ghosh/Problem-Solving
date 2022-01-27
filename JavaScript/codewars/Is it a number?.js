@@ -1,1 +1,1 @@
-const isDigit = s => !isNaN(s.trim());
+const isDigit = s => /^-?\d*\.?\d*$/.test(s.trim());
