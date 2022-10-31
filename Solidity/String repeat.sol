@@ -1,7 +1,8 @@
-pragma solidity ^0.4.19;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
 
 contract Repeater {
-  function multiply(uint8 repeat, string pattern) pure returns (string) {
+  function multiply(uint8 repeat, string memory pattern) public pure returns (string memory) {
     bytes memory str = bytes(pattern);
     uint size = repeat * str.length;
     bytes memory result = new bytes(size);
